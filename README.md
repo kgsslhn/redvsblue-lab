@@ -16,10 +16,15 @@ Containerized with Docker Compose, deployable on **Proxmox VE**.
 ## Architecture
 Proxmox VE
 └── LXC Container 100 (feedback-admin-local, 192.168.137.71)
+
 └── Docker Compose
+
 └── admin-feedback container
+
 ├── Node.js app :3075
+
 ├── SSH (analyst) :2275
+
 └── Logs /opt/admin/logs
 
 text
