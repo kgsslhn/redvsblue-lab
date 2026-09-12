@@ -1,7 +1,7 @@
 # Red vs Blue CTF Lab - Cookies Reuse & MFA Bypass
 
 **SCENARIO75** - Cyber Range Engineering Practical Assessment
-**Author:** kgsslhn | **Client:** PT Nauli Mula Data
+**Author:** kgsslhn 
 
 ---
 
