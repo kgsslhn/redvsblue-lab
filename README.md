@@ -28,7 +28,6 @@ Proxmox VE
 
 └── Logs /opt/admin/logs
 
-text
 
 ---
 
