@@ -1,0 +1,18 @@
+version: "3.9"
+
+services:
+  admin-feedback:
+    build: .
+    container_name: admin-feedback
+    ports:
+      - "3075:3075"
+      - "2275:2275"
+    volumes:
+      - ./logs:/opt/admin/logs
+    restart: unless-stopped
+    networks:
+      - feedback_net
+
+networks:
+  feedback_net:
+    driver: bridge

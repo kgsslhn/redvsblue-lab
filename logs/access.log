@@ -1,0 +1,6 @@
+[2026-09-11 12:53:57] Server started on port 3075
+[2026-09-12 09:01:34] POST /api/feedback from 10.89.0.2 ua="curl/8.20.0"
+[2026-09-12 09:01:38] GET /dashboard from 10.89.0.2 - 302 redirect (no adm_sess)
+[2026-09-12 09:01:42] GET /dashboard from 10.89.0.2 - 200 OK (adm_sess present)
+[2026-09-12 09:01:51] POST /api/verify-mfa from 10.89.0.2
+[2026-09-12 09:06:17] Server started on port 3075
